@@ -23,19 +23,73 @@ Notelier는 대학생의 강의 노트 작성과 복습을 돕는 iOS 학습 노
 
 ## 화면 구성
 
-| Home | All | Ask |
-| --- | --- | --- |
-| <img src="docs/screenshots/notelier-main.png" width="180" alt="Home 화면" /> | <img src="docs/screenshots/notelier-listall.png" width="180" alt="All 화면" /> | <img src="docs/screenshots/notelier-ask.png" width="180" alt="Ask 화면" /> |
-
-| Note Detail | Chat Room |
-| --- | --- |
-| <img src="docs/screenshots/notelier-noteDetail.png" width="180" alt="노트 상세 화면" /> | <img src="docs/screenshots/notelier-chatRoom.png" width="180" alt="채팅 화면" /> |
-
-- `Home`: 노트/질문 입력, 즐겨찾기 노트, 캘린더 조회
-- `All`: 과목별 노트 목록, 노트/과목 추가, 과목 관리
-- `Note Detail`: 노트 본문 편집, Quiz/Summary 요청, 삭제
-- `Ask`: 저장된 채팅 목록, 새 채팅 시작, 채팅 삭제
-- `Chat Room`: AI 응답 확인, 이어서 질문, 노트 기반 퀴즈/요약 확인
+<table>
+  <tr>
+    <td width="190">
+      <img src="docs/screenshots/notelier-main.png" width="170" alt="Home 화면" />
+    </td>
+    <td>
+      <b>Home</b>
+      <ul>
+        <li>노트/질문 모드 선택</li>
+        <li>즐겨찾기 노트 빠른 접근</li>
+        <li>캘린더 기반 날짜별 노트 조회</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td width="190">
+      <img src="docs/screenshots/notelier-listall.png" width="170" alt="All 화면" />
+    </td>
+    <td>
+      <b>All</b>
+      <ul>
+        <li>과목별 노트 목록 확인</li>
+        <li>과목 섹션 접기/펼치기</li>
+        <li>노트 추가, 과목 추가, 과목 관리</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td width="190">
+      <img src="docs/screenshots/notelier-noteDetail.png" width="170" alt="노트 상세 화면" />
+    </td>
+    <td>
+      <b>Note Detail</b>
+      <ul>
+        <li>노트 본문 확인 및 편집</li>
+        <li>Quiz/Summary 요청</li>
+        <li>노트 삭제</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td width="190">
+      <img src="docs/screenshots/notelier-ask.png" width="170" alt="Ask 화면" />
+    </td>
+    <td>
+      <b>Ask</b>
+      <ul>
+        <li>저장된 채팅 목록 확인</li>
+        <li>새 채팅 시작</li>
+        <li>채팅 기록 삭제</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td width="190">
+      <img src="docs/screenshots/notelier-chatRoom.png" width="170" alt="채팅 화면" />
+    </td>
+    <td>
+      <b>Chat Room</b>
+      <ul>
+        <li>AI 응답 확인</li>
+        <li>이어서 질문</li>
+        <li>노트 기반 퀴즈/요약 확인</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 
 ## 기술 스택
