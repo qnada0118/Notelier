@@ -1,21 +1,41 @@
-<img width=full alt="notelier_logo" src="https://github.com/user-attachments/assets/5dddd44a-22de-4e3b-b824-0cd748c0626b" />
+<img width="100%" alt="notelier_logo" src="https://github.com/user-attachments/assets/5dddd44a-22de-4e3b-b824-0cd748c0626b" />
 
 # Notelier
 
 Notelier는 대학생의 강의 노트 작성과 복습을 돕는 iOS 학습 노트 앱입니다. 
-노트를 과목별로 정리하고, 저장한 노트를 기반으로 OpenAI API를 사용해 요약, 질문 응답, 퀴즈 생성 기능을 제공합니다.
+노트를 과목별로 정리하고, 저장한 노트를 기반으로 OpenAI API를 사용해 요약, 질문 응답, 퀴즈 생성 기능 제공.
 
 
 ## 주요 기능
 
-- 노트 작성, 수정, 삭제
-- 과목 추가 및 과목별 노트 그룹화
-- 노트와 과목 즐겨찾기
-- 날짜별 노트 조회
-- 저장된 노트를 첨부한 AI 질문
-- 노트 기반 요약 및 퀴즈 생성
-- AI 답변을 새 노트로 저장
-- 채팅 세션 저장 및 다시 열기
+- 홈 화면에서 노트/질문 모드 선택
+- 즐겨찾기 노트 빠른 접근
+- 캘린더 기반 날짜별 노트 조회
+- 전체 노트 과목별 그룹화
+- 과목 섹션 접기/펼치기
+- 노트 추가, 과목 추가, 과목 관리
+- 노트 상세 수정 및 삭제
+- 노트 기반 AI 요약/퀴즈 생성
+- Ask 탭에서 AI 채팅 기록 관리
+- 새 채팅 시작 및 기존 채팅 다시 열기
+- AI 답변을 노트로 저장
+
+
+## 화면 구성
+
+| Home | All | Ask |
+| --- | --- | --- |
+| <img src="docs/screenshots/notelier-main.png" width="180" alt="Home 화면" /> | <img src="docs/screenshots/notelier-listall.png" width="180" alt="All 화면" /> | <img src="docs/screenshots/notelier-ask.png" width="180" alt="Ask 화면" /> |
+
+| Note Detail | Chat Room |
+| --- | --- |
+| <img src="docs/screenshots/notelier-noteDetail.png" width="180" alt="노트 상세 화면" /> | <img src="docs/screenshots/notelier-chatRoom.png" width="180" alt="채팅 화면" /> |
+
+- `Home`: 노트/질문 입력, 즐겨찾기 노트, 캘린더 조회
+- `All`: 과목별 노트 목록, 노트/과목 추가, 과목 관리
+- `Note Detail`: 노트 본문 편집, Quiz/Summary 요청, 삭제
+- `Ask`: 저장된 채팅 목록, 새 채팅 시작, 채팅 삭제
+- `Chat Room`: AI 응답 확인, 이어서 질문, 노트 기반 퀴즈/요약 확인
 
 
 ## 기술 스택
@@ -117,8 +137,8 @@ Notelier/
 
 ## 보안 주의
 
-OpenAI API 키를 `Info.plist`에 직접 저장하면 앱 번들에 포함될 수 있음. 
-이 프로젝트는 로컬 개발용으로 `Config/Secrets.xcconfig`에서 키를 주입하지만, 배포 환경에서는 서버 프록시를 통해 OpenAI API를 호출하는 방식 권장.
+OpenAI API 키를 `Info.plist`에 직접 저장하면 앱 번들에 포함될 수 있음.
+이 프로젝트는 로컬 개발용으로 `Config/Secrets.xcconfig`에서 키를 주입. 배포 환경에서는 서버 프록시를 통해 OpenAI API를 호출하는 방식 권장.
 
 
 ## 라이선스
