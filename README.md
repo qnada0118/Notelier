@@ -1,3 +1,5 @@
+<img width="720" height="480" alt="notelier_logo" src="https://github.com/user-attachments/assets/5dddd44a-22de-4e3b-b824-0cd748c0626b" />
+
 # Notelier
 
 Notelier는 대학생의 강의 노트 작성과 복습을 돕는 iOS 학습 노트 앱입니다. 노트를 과목별로 정리하고, 저장한 노트를 기반으로 OpenAI API를 사용해 요약, 질문 응답, 퀴즈 생성 가능.
@@ -49,30 +51,30 @@ Notelier/
 
 1. 저장소 클론
 
-```bash
-git clone <repository-url>
-cd Notelier
-```
+  ```bash
+  git clone <repository-url>
+  cd Notelier
+  ```
 
 2. Xcode에서 프로젝트 열기
 
-```bash
-open Notelier.xcodeproj
-```
+  ```bash
+  open Notelier.xcodeproj
+  ```
 
 3. 로컬 전용 OpenAI API 키 설정
-
-`Config/Secrets.xcconfig.example`을 복사해서 `Config/Secrets.xcconfig`를 만들고, 본인 키를 입력.
-
-```bash
-cp Config/Secrets.xcconfig.example Config/Secrets.xcconfig
-```
-
-```xcconfig
-OPENAI_API_KEY = YOUR_OPENAI_API_KEY
-```
-
-`Config/Secrets.xcconfig`는 `.gitignore`에 포함되어 GitHub에 올라가지 않음.
+  
+  `Config/Secrets.xcconfig.example`을 복사해서 `Config/Secrets.xcconfig`를 만들고, 본인 키를 입력.
+  
+  ```bash
+  cp Config/Secrets.xcconfig.example Config/Secrets.xcconfig
+  ```
+  
+  ```xcconfig
+  OPENAI_API_KEY = YOUR_OPENAI_API_KEY
+  ```
+  
+  `Config/Secrets.xcconfig`는 `.gitignore`에 포함되어 GitHub에 올라가지 않음.
 
 4. Xcode에서 시뮬레이터 또는 실제 기기 선택 후 실행
 
