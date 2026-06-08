@@ -1,0 +1,67 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# Xcode user state
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Xcode build products
+build/
+DerivedData/
+*.build/
+*.app
+*.appex
+*.framework
+*.xcarchive
+*.xcresult
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Packages/
+
+# CocoaPods / Carthage generated files
+Pods/
+Carthage/Build/
+
+# Dependency managers and tooling caches
+.bundle/
+vendor/bundle/
+.ruby-version
+.node_modules/
+node_modules/
+
+# Logs and reports
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Local configuration and secrets
+.env
+.env.*
+*.local
+*.xcconfig.local
+
+# Archives and backups
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.bak
+*.backup
+
+# Keep real Xcode project files in Git.
+# Do not ignore Notelier.xcodeproj/project.pbxproj or shared workspace data.
