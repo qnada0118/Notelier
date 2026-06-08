@@ -14,7 +14,7 @@
 	<key>NSCameraUsageDescription</key>
 	<string>사진을 찍기 위해 카메라 사용이 필요합니다.</string>
 	<key>OpenAI_API_Key</key>
-	<string>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</string>
+	<string>$(OPENAI_API_KEY)</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>

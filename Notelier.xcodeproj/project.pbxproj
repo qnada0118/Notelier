@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXFileReference section */
+		30CA78E52DF1F260003F88E3 /* Notelier.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Notelier.xcconfig; sourceTree = "<group>"; };
+		30CA78E62DF1F260003F88E3 /* Secrets.xcconfig.example */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Secrets.xcconfig.example; sourceTree = "<group>"; };
 		30CA78CD2DF1F25C003F88E3 /* Notelier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notelier.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -45,9 +47,19 @@
 		30CA78C42DF1F25C003F88E3 = {
 			isa = PBXGroup;
 			children = (
+				30CA78E72DF1F260003F88E3 /* Config */,
 				30CA78CF2DF1F25C003F88E3 /* Notelier */,
 				30CA78CE2DF1F25C003F88E3 /* Products */,
 			);
+			sourceTree = "<group>";
+		};
+		30CA78E72DF1F260003F88E3 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				30CA78E52DF1F260003F88E3 /* Notelier.xcconfig */,
+				30CA78E62DF1F260003F88E3 /* Secrets.xcconfig.example */,
+			);
+			path = Config;
 			sourceTree = "<group>";
 		};
 		30CA78CE2DF1F25C003F88E3 /* Products */ = {
@@ -140,6 +152,7 @@
 /* Begin XCBuildConfiguration section */
 		30CA78E12DF1F25F003F88E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30CA78E52DF1F260003F88E3 /* Notelier.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -168,6 +181,7 @@
 		};
 		30CA78E22DF1F25F003F88E3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30CA78E52DF1F260003F88E3 /* Notelier.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
