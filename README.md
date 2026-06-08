@@ -5,6 +5,7 @@
 Notelier는 대학생의 강의 노트 작성과 복습을 돕는 iOS 학습 노트 앱입니다. 
 노트를 과목별로 정리하고, 저장한 노트를 기반으로 OpenAI API를 사용해 요약, 질문 응답, 퀴즈 생성 기능 제공.
 
+<br>
 
 ## 주요 기능
 
@@ -20,6 +21,7 @@ Notelier는 대학생의 강의 노트 작성과 복습을 돕는 iOS 학습 노
 - 새 채팅 시작 및 기존 채팅 다시 열기
 - AI 답변을 노트로 저장
 
+<br>
 
 ## 화면 구성
 
@@ -91,6 +93,7 @@ Notelier는 대학생의 강의 노트 작성과 복습을 돕는 iOS 학습 노
   </tr>
 </table>
 
+<br>
 
 ## 기술 스택
 
@@ -100,6 +103,7 @@ Notelier는 대학생의 강의 노트 작성과 복습을 돕는 iOS 학습 노
 - UserDefaults 기반 로컬 저장
 - OpenAI Chat Completions API
 
+<br>
 
 ## 프로젝트 구조
 
@@ -125,6 +129,7 @@ Notelier/
 └── Assets.xcassets/
 ```
 
+<br>
 
 ## 실행 방법
 
@@ -157,6 +162,7 @@ Notelier/
 
 4. Xcode에서 시뮬레이터 또는 실제 기기 선택 후 실행
 
+<br>
 
 ## 요구 사항
 
@@ -164,6 +170,7 @@ Notelier/
 - iOS 18.5 이상
 - OpenAI API 키
 
+<br>
 
 ## 데이터 저장 방식
 
@@ -177,6 +184,7 @@ Notelier/
 
 별도 서버나 데이터베이스 없이 로컬 기기 안에서 동작.
 
+<br>
 
 ## OpenAI 연동
 
@@ -188,12 +196,14 @@ Notelier/
 - 채팅 목적 감지
 - 채팅 제목 자동 생성
 
+<br>
 
 ## 보안 주의
 
 OpenAI API 키를 `Info.plist`에 직접 저장하면 앱 번들에 포함될 수 있음.
 이 프로젝트는 로컬 개발용으로 `Config/Secrets.xcconfig`에서 키를 주입. 배포 환경에서는 서버 프록시를 통해 OpenAI API를 호출하는 방식 권장.
 
+<br>
 
 ## 라이선스
 
